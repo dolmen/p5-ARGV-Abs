@@ -1,10 +1,8 @@
-package ARGV::Abs;
+use 5.005;
 use strict;
 use warnings;
 
-BEGIN {
-    our $VERSION = '0.01';
-}
+package ARGV::Abs;
 
 use File::Spec;
 
